@@ -43,7 +43,7 @@ make
 
 ---
 
-### 🧠 Features
+## 🧠 Features
 - State machine (Start, Game, Lose)
 - Random block spawning
 - Score tracking
