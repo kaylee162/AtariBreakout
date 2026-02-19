@@ -28,8 +28,23 @@ Every 5 points, a new block appears at a random location. Miss the ball and you 
 - GBA hardware libraries
 - Mode 3 rendering
 - Compiled with devkitARM / GBA toolchain
-- Tested using a GBA emulator (mGBA or similar)
+- Tested using a GBA emulator (mGBA)
 
 ---
 
-## 📂 Project Structure
+## 🚀 How to Build
+
+If using Docker with the GBA compiler image:
+
+```bash
+docker run --rm -it -v "${PWD}:/gba" aaaronic/gba-compiler:1.4
+make
+```
+
+---
+
+### 🧠 Features
+- State machine (Start, Game, Lose)
+- Random block spawning
+- Score tracking
+- Increasing difficulty over time
